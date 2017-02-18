@@ -31,9 +31,9 @@
             src: 'svg/*.svg',          // svg src folder
             dest: 'fonts/',            // font destination folder
             options: {
-            font:"NaukriIcons",    // Name of font and base name of font files.
-            engine: "fontforge",   // Engine to use (Use 'fontforge' for ligatures support)
-            ligatures: true        // ligatures boolean flag
+                font:"DemoFonts",          // Name of font and base name of font files.
+                engine: "fontforge",       // Engine to use (Use 'fontforge' for ligatures support)
+                ligatures: true            // ligatures boolean flag
             }
         }
     }
@@ -43,4 +43,4 @@
     
     grunt webfont
 
-You can find webfonts in destination folder (Open fonts/NaukriIcons.html file for demo).
+You can find webfonts in destination folder (Open fonts/DemoFonts.html file for demo).
